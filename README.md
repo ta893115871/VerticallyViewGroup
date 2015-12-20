@@ -1,0 +1,4 @@
+# VerticallyViewGroup
+VerticallyViewGroup
+竖直滚动的ViewGroup
+like 竖直滚动的viewpager
