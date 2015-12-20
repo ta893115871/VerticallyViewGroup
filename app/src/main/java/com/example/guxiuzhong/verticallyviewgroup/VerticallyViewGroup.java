@@ -81,10 +81,10 @@ public class VerticallyViewGroup extends ViewGroup {
                 }
 //                System.out.println("------getHeight()()-->>>" + getHeight());
 //                System.out.println("-----bbbbbb->>>>" + getBottom());
-//                if (getScrollY() > 3 * mScreenHeight ) {
-//                    dy = 0;
-//                    System.out.println("------1111-->>>" + getHeight());
-//                }
+                if (getScrollY() > (getChildCount() - 1) * mScreenHeight) {
+                    dy = 0;
+                    System.out.println("------1111-->>>" + getHeight());
+                }
                 scrollBy(0, dy);
                 mLastY = y;
                 break;
